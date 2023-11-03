@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: aqua;
+      }
+    </style>
+    <symbol id="RSS_2" data-name="RSS 2" viewBox="0 0 55.97 55.98">
+      <g>
+        <path id="circle" class="cls-1" d="M15,48.5c0,4.14-3.36,7.49-7.51,7.49s-7.49-3.35-7.49-7.49,3.36-7.51,7.49-7.51,7.51,3.38,7.51,7.51Z"/>
+        <path class="cls-1" d="M36.77,55.56h-9.87c-.13-7.04-2.92-13.63-7.88-18.6C14.05,31.98,7.48,29.19,.48,29.06v-9.83c19.89,.27,36.01,16.42,36.28,36.34h0Z"/>
+        <path class="cls-1" d="M55.97,55.56h-9.85C45.85,30.47,25.54,10.1,.5,9.83V0C30.97,.27,55.7,25.05,55.97,55.56h0Z"/>
+      </g>
+    </symbol>
+  </defs>
+  <circle class="cls-2" cx="12.5" cy="12.5" r="12.5"/>
+  <use width="55.97" height="55.98" transform="translate(5.5 5.5) scale(.25)" xlink:href="#RSS_2"/>
+</svg>

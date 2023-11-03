@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: aqua;
+      }
+    </style>
+    <symbol id="_資訊" data-name="資訊" viewBox="0 0 9.35 34">
+      <g>
+        <path d="M4.68,0C2.09,0,0,2.09,0,4.68s2.09,4.68,4.68,4.68,4.68-2.09,4.68-4.68S7.26,0,4.68,0Z"/>
+        <rect x=".41" y="12.88" width="8.54" height="21.12"/>
+      </g>
+    </symbol>
+  </defs>
+  <circle class="cls-1" cx="12" cy="12" r="12"/>
+  <use width="9.35" height="34" transform="translate(10.25 5.62) scale(.38)" xlink:href="#_資訊"/>
+</svg>

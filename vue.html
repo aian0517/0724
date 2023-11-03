@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.js'
+        integrity='sha512-w39cIBZHEf0ac8RERRGs+aTrQbBIpb+0qGsMCKfwvJSmN6YV8brsbYN1a/nTmuQgfrGyg7p3WI4HRu1rs3rLvw=='
+        crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <div id="app">
+
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="nanbar-brand fw-bold">CREASE/</div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-5" id="nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Documentation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"
+                                    onclick="window.open('index.html','_blank','top=50,left=50,width=500px,height=700px')">手機</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="body1" class="d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-12"> -->
+                    <div class="fw-bold mb-3 cover-title">
+                        Bare-Metal <br>
+                        Banking <br>
+                        APIs
+                    </div>
+                    <div class="mb-4 w-50 pe-5 lh-base">
+                        Programmable money movement is table stakes. Founders choose Increase for the transparent
+                        access to networks, devolved compliance model, and unmatched customer service.
+                    </div>
+                    <div>
+                        <a href="" class="cover-link text-light fs-6">GET started ></a>
+                        <span class="d-flex justify-content-end align-items-end">
+                            Moving billions of dollars for fast-growing startups
+                        </span>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="container">
+                <div class="row body2-bg rounded">
+                    <div class="col-12 p-5  text-light ">
+                        <div class="fw-bold fs-2 w-50">
+                            Low-level network details directly from the Federal Reserve
+                        </div>
+                        <div class="w-50 my-3">
+                            Other providers omit, lose, or abstract away important information. We built direct,
+                            hard-wired
+                            connections into the Federal Reserve, Visa, The Clearing House, and other money movement
+                            networks to give you every detail.
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                        <div
+                            class="body2-box bg-light text-dark rounded d-flex justify-content-center align-items-center text-center">
+                            You get transparency and fine-grained control.
+                        </div>
+                        <div
+                            class="body2-box bg-dark text-light rounded d-flex justify-content-center align-items-center my-5 text-center">
+                            You get transparency and fine-grained control.
+                        </div>
+                    </div>
+                    <div class="col-12 text-light d-flex justify-content-end pe-5" style="letter-spacing: 1px;">
+                        Read more about <p style="color: rgb(16, 81, 201);font-weight: 800;">ACH</p>,<p
+                            style="color:#1ccdb0 ;">cards</p> ,<p style="color: rgb(49, 236, 80);">wires</p> , and <p
+                            style="color: rgb(241, 145, 43);">real-time payments</p> .
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-5">
+            <div class="container body3-box my-5 ps-5">
+                <div class="row">
+                    <div class="col-12 w-50 fw-bold fs-1">
+                        Flexible & programmable <p>financial primitives</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul style="list-style-type: none;" class="d-flex justify-content-around click-eve">
+                        <span v-for="item in items" class="no-click px-4" :class="{click:currentItem === item}"
+                            @click="currentItem = item">{{item}}</span>
+                    </ul>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 p-5 body3-data-box">
+                        <section>
+                            <div>
+                                {{items_data[currentItem]['title']}}
+                            </div>
+                            <div class="my-3">
+                                <ul style="list-style-type: none;" class="p-0">
+                                    <li class="mb-2" v-for="text in items_data[currentItem]['texts']"><img
+                                            src="./images/勾勾.svg" alt="" style="width: 15px;" class="me-2">{{text}}</li>
+                                </ul>
+                            </div>
+                            <div>
+                                {{items_data[currentItem]['footer']}}
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-6 body3-data-img">
+                        <img :src="items_data[currentItem]['img']" alt="" class="rounded body3-img">
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+
+    <script src="./js/index-vue.js"></script>
+</body>
+
+</html>

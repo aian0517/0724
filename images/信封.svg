@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: aqua;
+      }
+    </style>
+    <symbol id="_電子郵件" data-name="電子郵件" viewBox="0 0 66 48">
+      <path class="cls-1" d="M0,0V48H66V0H0ZM33,30.75l8.32-5.99,17.47,18.24H7.2L24.68,24.76l8.32,5.98Zm0-8.62L11.98,7H54.02l-21.02,15.12Zm-10.78,.87L5,40.96V10.6l17.22,12.39Zm38.78,17.97l-17.22-17.97,17.22-12.39v30.37Z"/>
+    </symbol>
+  </defs>
+  <circle class="cls-2" cx="12.5" cy="12.5" r="12.5"/>
+  <use width="66" height="48" transform="translate(5 7.05) scale(.23)" xlink:href="#_電子郵件"/>
+</svg>

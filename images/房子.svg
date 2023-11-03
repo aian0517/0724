@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: aqua;
+      }
+    </style>
+    <symbol id="_首頁" data-name="首頁" viewBox="0 0 69.46 63.67">
+      <path class="cls-1" d="M69.46,26.51l-12.6-9.62V.99h-9V10.03L34.73,0,0,26.51l5.46,7.16,3.74-2.86V63.67H60.26V30.81l3.74,2.85,5.46-7.15Zm-14.2,32.15h-11.53v-19H25.73v19H14.2V27.63l20.53-15.68,20.53,15.68v31.04Z"/>
+    </symbol>
+  </defs>
+  <circle class="cls-2" cx="12.5" cy="12.5" r="12.5"/>
+  <use width="69.46" height="63.67" transform="translate(3.74 4.5) scale(.25)" xlink:href="#_首頁"/>
+</svg>
